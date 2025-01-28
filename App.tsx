@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Привет!</Text>
       <StatusBar style="auto" />
+      <TextInput placeholder="Введите текст" />
+      <Button title="Нажми меня"></Button>
     </View>
   );
 }
